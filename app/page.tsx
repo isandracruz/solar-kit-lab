@@ -1,7 +1,9 @@
+import Layout from '@/components/layout/Layout';
+
 export default function Page() {
   return (
-     <main className="min-h-screen bg-background">
+    <Layout>
       <h1 className="text-4xl font-bold text-center mt-20">Bienvenido a Solar Kit Lab</h1>
-    </main>
+    </Layout>
   );
 }
